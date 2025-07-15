@@ -1,0 +1,25 @@
+{
+  "fields": [
+    {
+      "name": "crop_species",
+      "type": "string",
+      "description": "Crop species (scientific name)",
+      "rdfType": "http://aims.fao.org/aos/agrovoc/c_1972"  // crops
+    },
+    {
+      "name": "crop_yield_kg_per_ha",
+      "type": "number",
+      "description": "Crop yield in kilograms per hectare.",
+      "rdfType": "http://aims.fao.org/aos/agrovoc/c_10176"  // crop yield
+    },
+    {
+      "name": "planting_date",
+      "type": "date",
+      "description": "Date when the crop was planted.",
+      "format": "yyyy-MM-dd",
+      "rdfType": "http://aims.fao.org/aos/agrovoc/c_24065"  // planting date
+    }
+  ],
+  "primaryKey": "crop_species",
+  "missingValues": [""]
+}
